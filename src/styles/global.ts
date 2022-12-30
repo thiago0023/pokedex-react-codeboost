@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
         padding: 0;
         box-sizing: border-box;
         list-style: none;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         -webkit-font-smoothing: antialiased;
     }
 
@@ -18,6 +18,7 @@ export const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
     button {
         cursor: pointer;
         border: none;
+        background: transparent;
         &:disabled {
             cursor: not-allowed;
         }

@@ -23,6 +23,27 @@ export const defaultTheme = {
 
       'blue-400-low-opacity': 'rgba(63, 104, 186, 0.15)',
       'blue-400': '#3F67BA',
+
+      types: {
+        bug: '#9BBA48',
+        dark: '#595761',
+        dragon: '#2C6AC1',
+        electric: '#EED967',
+        fairy: '#E296E1',
+        fighting: '#C44D61',
+        fire: '#F66D6D',
+        flying: '#A6BBE8',
+        ghost: '#616EB7',
+        grass: '#73B861',
+        ground: '#CE8056',
+        ice: '#8BCEC1',
+        normal: '#A0A29F',
+        poison: '#AC6ACA',
+        psychic: '#EB8B85',
+        rock: '#8BCEC1',
+        steel: '#6594A1',
+        water: '#88A3D4',
+      }
     }
   } as const
 
