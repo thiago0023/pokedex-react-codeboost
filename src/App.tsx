@@ -8,8 +8,9 @@ function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyle />
-
-      <Landing />
+        <div style={{minWidth: "100vw", minHeight: "100vh", backgroundColor: "#7C7C8A" }}>
+          <Landing />
+        </div>
     </ThemeProvider>
   )
 }

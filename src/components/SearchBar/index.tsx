@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Button, Container, Input } from './styles';
+import iconSearch from '../../assets/icon-search.svg';
 
 const SearchBar: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ const SearchBar: React.FC = () => {
         <Input type="text" placeholder='Search name or code'/>
 
         <Button>
-            <img src="" alt="" />
+            <img src={iconSearch} alt="" />
         </Button>
     </Container>
     );
