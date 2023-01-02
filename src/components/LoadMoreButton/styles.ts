@@ -12,4 +12,10 @@ export const Button = styled.button`
     letter-spacing: -0.01em;
     color: ${({ theme }) => theme.colors["blue-400"]};
     background-color: ${({ theme }) => theme.colors['blue-400-low-opacity']};
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        background-color: ${({ theme }) => theme.colors['blue-400']};
+        color: ${({ theme }) => theme.colors.white};
+    }
 `

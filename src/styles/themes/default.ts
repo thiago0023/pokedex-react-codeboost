@@ -23,6 +23,7 @@ export const defaultTheme = {
 
       'blue-400-low-opacity': 'rgba(63, 104, 186, 0.15)',
       'blue-400': '#3F67BA',
+      'blue-500': '#3F5DB3',
 
       types: {
         bug: '#9BBA48',

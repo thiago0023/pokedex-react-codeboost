@@ -1,4 +1,5 @@
 import Card from '@components/Card';
+import Footer from '@components/Footer';
 import LoadMoreButton from '@components/LoadMoreButton';
 import SearchBar from '@components/SearchBar';
 import SidebarLink from '@components/SidebarLink';
@@ -24,6 +25,8 @@ const Landing: React.FC = () => {
       <TypeTag type='grass' />
 
       <LoadMoreButton />
+
+      <Footer />
     </>
     )
     

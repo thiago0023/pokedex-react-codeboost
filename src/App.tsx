@@ -2,15 +2,22 @@ import { ThemeProvider } from 'styled-components'
 import Landing from './pages/Landing'
 import { GlobalStyle } from './styles/global'
 import { defaultTheme } from './styles/themes/default'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import MainLayout from './layouts/MainLayout'
 
 function App() {
 
   return (
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyle />
-        <div style={{minWidth: "100vw", minHeight: "100vh", backgroundColor: "#7C7C8A" }}>
-          <Landing />
-        </div>
+      
+      <BrowserRouter>
+        <Routes>
+          <Route element={<MainLayout />}>
+            <Route path="/" element={<Landing />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </ThemeProvider>
   )
 }
